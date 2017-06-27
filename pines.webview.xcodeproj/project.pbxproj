@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					D23FA7F61EE793A700C43DCA = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q8C4Q4FNLJ;
 						ProvisioningStyle = Automatic;
 					};
 					D23FA80A1EE793A700C43DCA = {
@@ -341,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8C4Q4FNLJ;
 				INFOPLIST_FILE = pines.webview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.pines-webview";
@@ -353,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8C4Q4FNLJ;
 				INFOPLIST_FILE = pines.webview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.pines-webview";
@@ -408,6 +411,7 @@
 				D23FA8161EE793A700C43DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D23FA8171EE793A700C43DCA /* Build configuration list for PBXNativeTarget "pines.webviewTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +420,7 @@
 				D23FA8191EE793A700C43DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
