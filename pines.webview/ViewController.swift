@@ -7,19 +7,25 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WKUIDelegate {
     
     //MARK: Properties
-    @IBOutlet weak var webView: UIWebView!
-
+    var webView: WKWebView!
+    
+    override func loadView() {
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        view = webView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
     
         let url = URL(string: "https://gapines.org/")
         let req = URLRequest(url: url!)
-        webView.loadRequest(req)
+        webView.load(req)
     }
 
     override func didReceiveMemoryWarning() {
